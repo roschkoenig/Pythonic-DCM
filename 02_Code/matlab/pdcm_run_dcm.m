@@ -1,0 +1,7 @@
+function dcm_path = pdcm_run_dcm(dcm_path)
+load(dcm_path)
+disp('SPM initialising')
+spm('defaults', 'eeg')
+disp('SPM initialised')
+spm_dcm_csd(DCM)
+disp('Inversion Complete')
