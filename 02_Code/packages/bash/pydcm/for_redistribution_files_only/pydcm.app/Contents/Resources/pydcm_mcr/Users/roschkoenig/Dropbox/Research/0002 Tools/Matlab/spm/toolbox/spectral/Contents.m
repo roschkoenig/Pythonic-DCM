@@ -1,2 +1,0 @@
-% SPM Spectral Estimation Toolbox
-%

@@ -1,5 +1,4 @@
 function dcm_path = pdcm_estimate_csd(specfile)
-
 load(specfile)
 DCM             = pdcm_dcm_fix(DCM);
 DCM.xY.Dfile    = pdcm_filemaker(specfile);
