@@ -1,1 +1,11 @@
 Path	Symbol	Reason
+pdcm/spm/external/fieldtrip/fileio/private/read_ctf_shm.m	mex	undeployable
+pdcm/spm/external/fieldtrip/fileio/private/solid_angle.m	mex	undeployable
+pdcm/spm/external/fieldtrip/fileio/private/write_ctf_shm.m	mex	undeployable
+pdcm/spm/external/fieldtrip/forward/private/lmoutr.m	mex	undeployable
+pdcm/spm/external/fieldtrip/forward/private/solid_angle.m	mex	undeployable
+pdcm/spm/external/fieldtrip/plotting/private/ltrisect.m	mex	undeployable
+pdcm/spm/external/fieldtrip/plotting/private/solid_angle.m	mex	undeployable
+pdcm/spm/external/fieldtrip/private/lmoutr.m	mex	undeployable
+pdcm/spm/external/fieldtrip/private/routlm.m	mex	undeployable
+pdcm/spm/external/fieldtrip/private/solid_angle.m	mex	undeployable

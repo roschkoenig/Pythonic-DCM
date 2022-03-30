@@ -1,19 +1,38 @@
 <html><meta charset="UTF-8"><pre>
-<font color=blue>mcc -o pdcm -W 'main:pdcm,version=1.0' -T link:exe -d '/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_testing' -v '/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm.m' -a '/Users/roschkoenig/Dropbox/Research/0002 Tools/Matlab/Field Trip/fileio/ft_chantype.m' -a '/Users/roschkoenig/Dropbox/Research/0002 Tools/Matlab/spm/external/fieldtrip/ft_defaults.m' -a '/Users/roschkoenig/Dropbox/Research/0002 Tools/Matlab/spm/external/fieldtrip/utilities/ft_struct2double.m' </font>
+<font color=blue>mcc -o pdcm -W 'main:pdcm,version=1.0' -T link:exe -d '/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_testing' -v '/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm.m' </font>
 Compiler version: 8.4 (R2022a)
 
 Analyzing file dependencies. 
 
-<font color=red>Error while determining required deployable files. Compilation terminated. Details:
-Invalid MEX-file '/Users/roschkoenig/Dropbox/Research/0002 Tools/Matlab/Field
-Trip/fileio/@uint64/abs.mexmaci64': dlopen(/Users/roschkoenig/Dropbox/Research/0002 Tools/Matlab/Field
-Trip/fileio/@uint64/abs.mexmaci64, 0x0006): Library not loaded: @loader_path/libmex.dylib
-  Referenced from: /Users/roschkoenig/Dropbox/Research/0002 Tools/Matlab/Field
-  Trip/fileio/@uint64/abs.mexmaci64
-  Reason: tried: '/Users/roschkoenig/Dropbox/Research/0002 Tools/Matlab/Field
-  Trip/fileio/@uint64/libmex.dylib' (no such file), '/usr/local/lib/libmex.dylib' (no such file),
-  '/usr/lib/libmex.dylib' (no such file)
-</font>
-<font color=red></font>
-<font color=red>mcc failed.</font>
+Warning: In "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/external/fieldtrip/fileio/private/read_ctf_shm.m", "mex" are excluded from packaging for the MATLAB Runtime environment according to the MATLAB Compiler license. Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: In "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/external/fieldtrip/fileio/private/solid_angle.m", "mex" are excluded from packaging for the MATLAB Runtime environment according to the MATLAB Compiler license. Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: In "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/external/fieldtrip/fileio/private/write_ctf_shm.m", "mex" are excluded from packaging for the MATLAB Runtime environment according to the MATLAB Compiler license. Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: In "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/external/fieldtrip/forward/private/lmoutr.m", "mex" are excluded from packaging for the MATLAB Runtime environment according to the MATLAB Compiler license. Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: In "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/external/fieldtrip/forward/private/solid_angle.m", "mex" are excluded from packaging for the MATLAB Runtime environment according to the MATLAB Compiler license. Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: In "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/external/fieldtrip/plotting/private/ltrisect.m", "mex" are excluded from packaging for the MATLAB Runtime environment according to the MATLAB Compiler license. Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: In "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/external/fieldtrip/plotting/private/solid_angle.m", "mex" are excluded from packaging for the MATLAB Runtime environment according to the MATLAB Compiler license. Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: In "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/external/fieldtrip/private/lmoutr.m", "mex" are excluded from packaging for the MATLAB Runtime environment according to the MATLAB Compiler license. Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: In "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/external/fieldtrip/private/routlm.m", "mex" are excluded from packaging for the MATLAB Runtime environment according to the MATLAB Compiler license. Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: In "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/external/fieldtrip/private/solid_angle.m", "mex" are excluded from packaging for the MATLAB Runtime environment according to the MATLAB Compiler license. Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: Excluded "/Applications/MATLAB_R2022a.app/toolbox/matlab/codetools/edit.m"; reason: The file or function has been excluded from packaging for the "MCR" target environment according to the "Compiler" license.  Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: Excluded "/Applications/MATLAB_R2022a.app/toolbox/matlab/codetools/export.m"; reason: The file or function has been excluded from packaging for the "MCR" target environment according to the "Compiler" license.  Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: Excluded "/Applications/MATLAB_R2022a.app/toolbox/matlab/helptools/doc.m"; reason: The file or function has been excluded from packaging for the "MCR" target environment according to the "Compiler" license.  Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: Excluded "/Applications/MATLAB_R2022a.app/toolbox/matlab/helptools/help.m"; reason: The file or function has been excluded from packaging for the "MCR" target environment according to the "Compiler" license.  Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Warning: Excluded "/Applications/MATLAB_R2022a.app/toolbox/matlab/helptools/helpwin.m"; reason: The file or function has been excluded from packaging for the "MCR" target environment according to the "Compiler" license.  Either remove the file or function from your code, or use the MATLAB function "isdeployed" to ensure the function is not invoked in the deployed component.
+Parsing file "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm.m"
+	(referenced from command line).
+Generating file "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_testing/readme.txt".
+Generating file "/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_testing/run_pdcm.sh".
+<font color=blue>Packaging...</font>
+Adding custom icon /Applications/MATLAB_R2022a.app/toolbox/compiler/packagingResources/default_icon.icns to /Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_testing/pdcm.app.
+Creating the bundle...
+Creating the install agent URL file...
+Copying /Applications/MATLAB_R2022a.app/toolbox/compiler/maci64/setup.app to /Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_redistribution/MyAppInstaller_web.app.
+Copying /Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_redistribution/bundle.zip to /Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_redistribution/MyAppInstaller_web.app/Contents/Resources/bundle.zip.
+Copying /Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_redistribution/installAgentURL.txt to /Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_redistribution/MyAppInstaller_web.app/Contents/Resources/installAgentURL.txt.
+Copying /Applications/MATLAB_R2022a.app/toolbox/compiler/packagingResources/default_splash.png to /Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_redistribution/MyAppInstaller_web.app/Contents/Resources/splash.png.
+Copying /Applications/MATLAB_R2022a.app/toolbox/compiler/packagingResources/default_icon.icns to /Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_redistribution/MyAppInstaller_web.app/Contents/Resources/installer.icns.
+Web based installer created at /Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm/for_redistribution/MyAppInstaller_web.app.
+Packaging complete.
+Elapsed packaging time was: 3 minutes and 54 seconds.
 </pre></html>

@@ -8,7 +8,7 @@ disp('SPM initialised')
 %--------------------------------------------------------------------------
 if ischar(cfg), load(cfg); end 
 
-% Check whether this is running in principle
+% Check whether this is running in princicfgple
 %--------------------------------------------------------------------------
 if strcmp(cfg.task, 'test'), disp('The App is working'), end
 
