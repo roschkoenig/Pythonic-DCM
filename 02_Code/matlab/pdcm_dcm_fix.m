@@ -11,3 +11,4 @@ function DCM = pdcm_dcm_fix(DCM)
         DCM.A = A; 
     end
     if isempty(DCM.C), DCM.C = sparse(length(DCM.A{1}),0); end 
+    DCM.M.nograph = 1; 

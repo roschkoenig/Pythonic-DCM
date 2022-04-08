@@ -1,5 +1,5 @@
 #MATLAB Preferences
-#Wed Mar 30 19:51:12 BST 2022
+#Fri Apr 08 14:42:41 BST 2022
 Editor.Language.MuPAD.Color.operator=C-7123493
 RLHiddenB2_WB_2014b_1=I16376
 Editor.Language.VRMLX3DV.Color.field-keyword=C-4210944
@@ -14,19 +14,20 @@ RLWidthB2_VE_2014b_1_1=I225
 RLWidthB2_VE_2014b_1_0=I130
 DeploytoollastOpenFile=S
 Editor.Language.VRML.Color.node-keyword=C-1208813
+pCompilerOpenOutputFolder=Btrue
 Editor.Language.VRML.Color.comment=C-14114579
-EditorMRU8=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm_estimate_csd.m
-EditorMRU7=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm_compile.m
-EditorMRU6=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/pdcm_estimate_csd.m
-EditorMRU5=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm_filemaker.m
-EditorMRU4=S/Users/roschkoenig/Dropbox/Research/0002 Tools/Matlab/spm/toolbox/dcm_meeg/spm_dcm_erp_data.m
-EditorMRU3=S/Users/roschkoenig/Dropbox/Research/0002 Tools/Matlab/spm/spm.m
-EditorMRU2=S/Users/roschkoenig/Dropbox/Research/0002 Tools/Matlab/spm/toolbox/dcm_meeg/spm_dcm_erp_dipfit.m
-EditorMRU1=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm.m
+EditorMRU8=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/spm.m
+EditorMRU7=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/Contents.m
+EditorMRU6=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/toolbox/dcm_meeg/spm_dcm_csd.m
+EditorMRU5=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/spm_nlsi_GN.m
+EditorMRU4=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/spm/spm_diff.m
+EditorMRU3=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm_run_dcm.m
+EditorMRU2=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm_estimate_csd.m
+EditorMRU1=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm_dcm_fix.m
 CommandWindowClearConfirmation=Btrue
 Editor.Language.MuPAD.Color.function=C-8104937
 Editor.Language.VRML.Color.keyword=C-6578958
-DeploytoolrecentProjects=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/untitled1.prj;/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/untitled1.prj;/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm.prj;/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm.prj;/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/untitled1.prj
+DeploytoolrecentProjects=S/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/packages/pdcm.prj;/Users/roschkoenig/Documents/MATLAB/untitled1.prj;/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/untitled1.prj;/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/pdcm.prj;/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/02_Code/matlab/untitled1.prj;/Volumes/GoogleDrive/My Drive/Research/2201_TVP-integ/untitled1.prj
 Editor.Language.VRMLX3DV.Color.terminal-symbol=C-1710454
 RLWidthB2_WB_2014b_1_1=I130
 RLWidthB2_WB_2014b_1_0=I130
